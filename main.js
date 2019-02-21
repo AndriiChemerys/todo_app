@@ -28,7 +28,7 @@ const addTask=(e)=>{
     if(titleTask==="") return; //checking if user enter any value
     const task=document.createElement('li'); //creating new task item as li element
     task.className='task';
-    task.innerHTML=titleTask+"<button>delete</button>";
+    task.innerHTML=titleTask+"<button>x</button>";
     toDoArray.push(task) // adding new task to array
     renderList()
     ul.appendChild(task); // adding new task to ul

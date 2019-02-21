@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ======================
+TYPOGRAPHY
+====================== */
+
+body {
+    color: rgb(122, 68, 246);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16;
+    font-weight: normal;
+}
+
+.button {
+    /* padding: 5px 10px; */
+    border-radius: 3px;
+    background-color: rgba(197, 194, 245, 0.699);
+    border-color: rgba(82, 38, 202, 0.746);
+
+    color: rgba(122, 68, 246, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+}
+
+.main {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(112, 236, 153, 0.657);
+    min-height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
